@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 
-const API = "http://localhost:5000";
+const API = "https://resumeai-lyzc.onrender.com/";
 
 function App() {
     const [token, setToken] = useState(localStorage.getItem("token"));
