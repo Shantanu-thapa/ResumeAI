@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 
-const API = "https://resumeai-lyzc.onrender.com/";
+const API = import.meta.env.VITE_API_URL;
 
 function App() {
     const [token, setToken] = useState(localStorage.getItem("token"));
